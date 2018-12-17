@@ -179,3 +179,11 @@ Refer to the .env.sample if needed.
 # Context
 
 The slackbot also has the option to send up context as JSON. You can find this in the `context.json` file in the root directory. The file **must be** valid JSON and will be sent as part of the body to WA. This is useful for one your skills/skillSets require context such as location with a lat long.
+
+## Deploy to IBM Cloud
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/janmejayadas/Py_WAS_Slackbot.git)
+
+1. Press the above `Deploy to IBM Cloud` button and then click on `Deploy`.
+
+2. In Toolchains, click on Delivery Pipeline to watch while the app is deployed.
+
